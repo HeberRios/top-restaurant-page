@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* pridi-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Pridi";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/pridi-v13-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* pridi-700 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Pridi";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/pridi-v13-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+body {
+    font-family: "Pridi", serif;
+    color: #fff;
+    background-image: url("../images/noodles-platter.jpg");
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 4.8rem 6.4rem;
+    background-color: #000000c7;
+}
+
+.nav-list {
+    display: flex;
+    gap: 3.2rem;
+    list-style: none;
+    font-size: 2rem;
+    letter-spacing: 0.125rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: inherit;
+}
