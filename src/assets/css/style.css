@@ -103,6 +103,7 @@ main {
     font-size: 4rem;
     text-transform: uppercase;
     letter-spacing: 0.35rem;
+    text-align: center;
 }
 
 .menu-grid {
@@ -136,4 +137,44 @@ main {
     text-transform: capitalize;
     font-size: 2rem;
     text-align: center;
+}
+
+/* CONTACT SECTION --- */
+
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-title {
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.35rem;
+    text-align: center;
+}
+
+.contact-logo-img {
+    height: 10rem;
+}
+
+.contact-data-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+.contact-data {
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+}
+
+.data-paragraph {
+    font-size: 1.8rem;
+    letter-spacing: .125rem;
+}
+
+.data-icon {
+    width: 8rem;
 }
