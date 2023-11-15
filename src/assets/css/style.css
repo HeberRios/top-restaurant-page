@@ -97,3 +97,43 @@ main {
     width: 36rem;
     border-radius: 50%;
 }
+
+/* MENU SECTION --- */
+.menu-title {
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.35rem;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 3.2rem;
+    column-gap: 6.4rem;
+}
+
+.menu-card {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+
+.dish-img {
+    width: 19rem;
+    height: 19rem;
+    border-radius: 50%;
+    border: 0.3rem solid #fff;
+    transition: all 0.4s;
+}
+
+.dish-img:hover,
+.dish-img:active {
+    cursor: pointer;
+    scale: 1.075;
+}
+
+.dish-title {
+    text-transform: capitalize;
+    font-size: 2rem;
+    text-align: center;
+}
