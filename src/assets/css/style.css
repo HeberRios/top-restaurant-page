@@ -77,19 +77,26 @@ main {
 
 .main-content {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 2.4rem;
     padding: 4.8rem 0;
     background-color: #000000c7;
 }
 
-.main-content > p {
+.home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.8rem;
+}
+
+.home-content > p {
+    text-align: center;
     font-size: 2.4rem;
 }
 
-.main-content > p:nth-of-type(3) {
+.home-content > p:nth-of-type(3) {
     text-transform: uppercase;
 }
 
@@ -172,7 +179,7 @@ main {
 
 .data-paragraph {
     font-size: 1.8rem;
-    letter-spacing: .125rem;
+    letter-spacing: 0.125rem;
 }
 
 .data-icon {
