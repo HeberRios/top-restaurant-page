@@ -1,3 +1,5 @@
 "use strict";
-import "./style.css";
+import initializeWebsite from "./website";
+
+initializeWebsite();
 console.log("Hey hello there, how are you doing?");
