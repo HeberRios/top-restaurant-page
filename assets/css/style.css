@@ -73,14 +73,14 @@ header {
 /* MAIN SECTION --- */
 
 main {
-    margin: 6.4rem;
+    margin: 5.2rem;
 }
 
 .main-content {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 4.8rem 0;
+    padding: 3.2rem 0;
     background-color: #000000c7;
 }
 
@@ -175,7 +175,7 @@ main {
 .contact-data {
     display: flex;
     align-items: center;
-    gap: 3.2rem;
+    gap: 2.4rem;
 }
 
 .data-paragraph {
@@ -184,5 +184,5 @@ main {
 }
 
 .data-icon {
-    width: 8rem;
+    width: 6rem;
 }
