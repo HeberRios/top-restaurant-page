@@ -22,9 +22,12 @@ function createHeader() {
     const menuLink = document.createElement("a");
     const contactLink = document.createElement("a");
 
-    homeLink.classList.add("nav-link");
+    homeLink.classList.add("nav-link", "active");
+    homeLink.setAttribute("id", "home");
     menuLink.classList.add("nav-link");
+    menuLink.setAttribute("id", "menu");
     contactLink.classList.add("nav-link");
+    contactLink.setAttribute("id", "contact");
 
     homeLink.setAttribute("href", "#");
     menuLink.setAttribute("href", "#");
